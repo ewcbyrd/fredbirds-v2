@@ -9,3 +9,16 @@ nav .nav-center-group > .btn-group {
   display: flex;
   gap: 0.5rem;
 }
+
+@media (max-width: 768px) {
+  nav .nav-center-group > .btn-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  nav .nav-center-group {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
