@@ -276,6 +276,12 @@ main {
     margin: 1.5rem 0;
     border-radius: 10px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 120px;
 }
 
 .highlight-box::before {
