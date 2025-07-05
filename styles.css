@@ -387,23 +387,35 @@ footer {
     .nav-links {
         gap: 1rem;
     }
-    
+
     .nav-links a {
         padding: 0.6rem 1rem;
         font-size: 0.9rem;
     }
-    
+
     .logo {
         font-size: 2rem;
     }
-    
+
     .section {
         padding: 2rem 1.5rem;
     }
-    
+
     .grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    /* Make navbar button text and size smaller on small screens */
+    nav .btn-group .btn,
+    nav .btn-group-vertical .btn {
+        font-size: 0.7rem;
+        padding: 0.25rem 0.4rem;
+        min-width: 0;
+    }
+    nav .btn-group,
+    nav .btn-group-vertical {
+        gap: 0.025rem !important;
     }
 }
 
